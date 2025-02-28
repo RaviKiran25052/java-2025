@@ -1,5 +1,5 @@
 
-public class _1_Classes {
+public class _0_Classes {
 	public static void main(String[] args) {
 		
 		// Object - instance of a class
@@ -43,7 +43,7 @@ public class _1_Classes {
 		System.out.println("Is Enrolled: " + student2.isEnrolled);
 		student2.study();
 
-		// Constructor
+		// Constructor overloading
 		User user = new User("gopika", "gopikamanasa9@gmail.com", "gopika123");
 		System.out.println("\nUsername: " + user.username);
 		System.out.println("Email: " + user.email);
@@ -51,7 +51,6 @@ public class _1_Classes {
 		user.login();
 		user.logout();
 
-		// Constructor
 		User user2 = new User("ravi", "ravivarma25@gmail.com");
 		System.out.println("\nUsername: " + user2.username);
 		System.out.println("Email: " + user2.email);
