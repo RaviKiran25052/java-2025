@@ -2,6 +2,7 @@
 class _1_DataTypes {
 	public static void main(String[] args) {
 
+		// primitive data types
 		byte by1 = -128;
 		byte by2 = 127;
 		short s1 = -32768;
@@ -31,5 +32,13 @@ class _1_DataTypes {
 		System.out.println("char examples: " + c3 + ", " + c4);
 		System.out.println("boolean values: " + b1 + ", " + b2);
 		
+		// non-primitive (reference) data types - String, Array, Class, Interface, etc.
+		String str = "Hello, World!";
+		System.out.println("\nString: " + str);
+
+		// array
+		int[] arr = { 1, 2, 3, 4, 5 };
+		System.out.println("Array: " + arr[0] + ", " + arr[1] + ", " + arr[2] + ", " + arr[3] + ", " + arr[4]);
+
 	}
 }

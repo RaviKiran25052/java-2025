@@ -25,6 +25,7 @@ public class _4_Statements {
 			default -> System.out.println("switch-case: y is neither 1 nor 2");
 		}
 
+		// deprecated switch-case
 		// int day = 1;
 		// switch (day) {
 		// 	case 1:

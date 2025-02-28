@@ -23,7 +23,6 @@ public class _3_TypeCasting {
 		// double range: 2^-1074 to 2^1024
 		// char range: 0 to 2^16 - 1 = 65536 values
 		// boolean values: true or false
-
 		
 		// type promotion
 		byte x = 10;

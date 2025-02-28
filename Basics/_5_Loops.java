@@ -11,6 +11,11 @@ public class _5_Loops {
 			a++;
 		}
 		
+		// infinite loop
+		// for (;;) {
+		// 	System.out.println("infinite loop");
+		// }
+		
 		// while loop
 		int j = 0;
 		while (j < 5) {
@@ -24,11 +29,6 @@ public class _5_Loops {
 			System.out.println("do-while loop: " + k);
 			k++;
 		} while (k < 5);
-		
-		// infinite loop
-		// for (;;) {
-		// 	System.out.println("infinite loop");
-		// }
 		
 		// nested loop
 		for (int i = 0; i < 3; i++) {
