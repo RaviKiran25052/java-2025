@@ -22,7 +22,7 @@ public class _6_Methods {
 		add(4, 6, 10);
 
 		// variable arguments
-		System.out.println("\nAverage: "+avg(1, 2, 3, 4));
+		System.out.println("\nAverage: " + avg(1, 2, 3, 4));
 	}
 
 	static void greet() {
