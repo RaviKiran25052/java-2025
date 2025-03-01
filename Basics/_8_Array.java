@@ -1,7 +1,4 @@
-
 import java.util.Arrays;
-
-
 
 public class _8_Array {
 	public static void main(String[] args) {
