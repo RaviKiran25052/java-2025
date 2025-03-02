@@ -1,4 +1,4 @@
-public class _4_MergeSort {
+public class _9_MergeSort {
 
 	static void show(int[] arr) {
 		for (int i : arr) {

@@ -1,4 +1,4 @@
-public class _5_QuickSort {
+public class _10_QuickSort {
 
 	static void show(int[] arr) {
 		for (int i : arr) {
@@ -7,33 +7,34 @@ public class _5_QuickSort {
 		System.out.println();
 	}
 
-	static int partition(int[] arr, int low, int high) {
-		int pivot = arr[low]; // Choose first element as pivot
-		int i = low + 1, j = high;
+	static int partition(int[] arr, int start, int end) {
+		int pivot = arr[start]; // Choose first element as pivot
+		int i = start + 1, j = end;
 
 		while (i <= j) {
 			while (i <= j && arr[i] <= pivot) {
-				i++;
+				i++; // index of element greater than pivot
 			}
 			while (arr[j] > pivot) {
-				j--;
+				j--; // index of element less than pivot
 			}
-			if (i < j) {
+			if (i < j) { // j is not yet crossed i
 				swap(arr, i, j);
 			}
 		}
 
-		swap(arr, low, j); // Place pivot in correct position
+		swap(arr, start, j); // Place pivot in correct position
 		return j;
 	}
 
-	// QuickSort with proper range checks
-	static void quickSort(int[] arr, int low, int high) {
-		if (low < high) {
-			int pivot = partition(arr, low, high);
-			quickSort(arr, low, pivot - 1);
-			quickSort(arr, pivot + 1, high);
-		}
+	// recursively partitioning the array after getting the pivot
+	static void quickSort(int[] arr, int start, int end) {
+		
+		if (start >= end) return; // base case
+
+		int pivot = partition(arr, start, end);
+		quickSort(arr, start, pivot - 1);
+		quickSort(arr, pivot + 1, end);
 	}
 
 	static void swap(int[] arr, int i, int j) {
@@ -52,7 +53,7 @@ public class _5_QuickSort {
 
 		System.out.print("After Sorting: ");
 		show(arr);
-		
+
 		// time complexity - O(n log n)
 		// space complexity - O(log n)
 	}

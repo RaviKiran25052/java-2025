@@ -1,4 +1,4 @@
-public class _2_InsersionSort {
+public class _7_InsersionSort {
 
 	static void show(int[] arr) {
 		for (int i : arr) {
