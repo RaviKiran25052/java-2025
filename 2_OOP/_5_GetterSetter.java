@@ -1,6 +1,13 @@
 public class _5_GetterSetter {
 	public static void main(String[] args) {
-		
+
+// 										Public	Private	Protected	Default
+// Same class							  ✔️		  ✔️		  ✔️			✔️
+// Same package subclass			  ✔️		  ❌		 ✔️		  ✔️
+// Same package non-subclass		  ✔️		  ❌		 ✔️		  ✔️
+// Different package subclass		  ✔️		  ❌		 ✔️		  ❌
+// Different package non-subclass  ✔️		  ❌		 ❌			 ❌
+
 		Company company = new Company("IBM", 1991);
 		company.setCEO("Arvind Krishna");
 		company.setEmpCout(1200000);

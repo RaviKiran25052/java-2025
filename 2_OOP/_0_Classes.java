@@ -3,7 +3,11 @@ public class _0_Classes {
 	public static void main(String[] args) {
 		
 		// Object - instance of a class
-		Car myCar = new Car();
+		Car myCar; // creating reference - stores in stack
+		myCar = new Car(); // creating object
+		// new Car(); // anonymous objects - stores in Heap
+		new Car().start(); // we can call the methods
+
 		System.out.println("\nBrand: " + myCar.brand);
 		System.out.println("Model: " + myCar.model);
 		System.out.println("Year: " + myCar.year);
