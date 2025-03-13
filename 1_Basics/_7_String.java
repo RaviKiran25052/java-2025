@@ -145,11 +145,11 @@ public class _7_String {
 
 		// String formatting - repeat()
 		String str44 = " me!";
-		System.out.println("str44 repeat:" + str44.repeat(3));
+		System.out.println("\nstr44 repeat:" + str44.repeat(3));
 
 		// String comparison - matches()
 		String str45 = "should be exact match";
-		System.out.println("\nstr45 matches: " + str45.matches("should be exact match"));
+		System.out.println("\nstr45 matches: " + str45.matches("^(s).*"));
 
 		// String comparison - toCharArray()
 		String str46 = "you and i";

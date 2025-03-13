@@ -118,6 +118,7 @@ public class _8_Array {
 		}
 
 		// binary search
+		// Array should be sorted
 		System.out.println("\nArrays.binarySearch: " + Arrays.binarySearch(arr9, 3));
 
 		// toString
