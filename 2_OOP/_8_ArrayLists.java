@@ -6,6 +6,7 @@ public class _8_ArrayLists {
 
 		// ArrayList - A resizable array that stores objects (autoboxing).
 		// <> - diamond operator
+		// no need of ArrayList<String> fruits = new ArrayList<Integer>();
 		ArrayList<String> fruits = new ArrayList<>();
 
 		fruits.add("Mango");
