@@ -10,9 +10,9 @@ public class _10_Generics {
 
 	public static void main(String[] args) {
 
-		Box<String> fruits = new Box<>(new String[]{"Apple", "Banana", "Cherry"});
-		System.out.println("First fruit: " + fruits.getItem(0));
-		fruits.addItem("Date");
-		System.out.println("Added a new fruit: " + fruits.getItem(3));
+		Box<String> fruit = new Box<>("Banana");
+		System.out.println("Fruit: " + fruit.getItem());
+		fruit.setItem("Apple");
+		System.out.println("Fruit: " + fruit.getItem());
 	}
 }
