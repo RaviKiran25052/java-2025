@@ -59,13 +59,16 @@ public class _13_Dates {
 		System.out.println(yearsUntilChristmas + " years, " + monthsUntilChristmas + " months, and " + daysUntilChristmas
 				+ " days until Christmas 2025.");
 
-		// Example of checking if a date is before or after another date
+		// Example of checking if a date is before, after or equal to another date
 		LocalDate newYear = LocalDate.of(2026, 1, 1);
 		if (today.isBefore(newYear)) {
 			System.out.println("Today is before New Year's Day 2026.");
 		}
 		if (today.isAfter(christmas)) {
 			System.out.println("Today is after Christmas 2025.");
+		}
+		if (today.isEqual(LocalDate.now())) {
+			System.out.println("Today is equal to the current date.");
 		}
 
 		// Example of calculating the difference between two date Strings
