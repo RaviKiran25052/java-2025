@@ -1,0 +1,58 @@
+Java Full Stack Roadmap
+--------------------------------
+= Core Java / Java SE
+  - Java SE stands for Java Standard Edition
+  - used to develop standalone/desktop applications [like calculator, notepad..etc]
+    - Java Introduction
+    - Java Features
+    - Download and Install Java LTS version
+    - Developing a Java Application at command prompt
+    - Download and Install Eclipse IDE
+    - Developing a Java Application in Eclipse IDE
+    - Java Basics [keywords, variables, data types, operators, if, switch, while loop, do...while loop, for loop etc]
+    - Arrays
+    - OOPs [classes, objects, constructors, static keyword, packages, inheritance, polymorphism, final keyword, inner classes, access modifiers, encapsulation, abstract classes, interfaces etc]
+    - lang package [Object class, String class, StringBuffer class, StringBuilder class, Math class, Wrapper classes]
+    - Exception Handling
+    - multithreading
+    - Collections
+    - Lambda Expressions, Functional Interfaces, Stream API
+    - IO Package
+    - SQL concepts/Database concepts using MySQL database
+    - JDBC
+
+= Web Technologies / UI Design / Front End Design
+  - HTML
+  - css
+  - JavaScript
+  - TypeScript
+  - XML
+  - JSON
+  - Angular
+
+= Advance Java / Java EE
+  - Java EE stands for Java Enterprise Edition
+  - used to develop web applications
+    - Servlets
+    - JSP (Java Server Pages)
+
+= Frameworks
+  - Hibernate Framework
+  - Web Services
+  - Spring Framework
+    - Spring Core/Bean module
+    - Spring DAO module
+      - Spring JDBC Module
+      - Spring ORM module (hibernate)
+      - Spring Data Module
+    - Spring MVC module used to develop web applications
+    - Spring Boot Module
+    - Spring REST Module
+   - Microservices using spring boot
+
+= Real time tools
+  - maven
+  - GitHub
+  - Log4j
+  - Lombok
+  - Postman
