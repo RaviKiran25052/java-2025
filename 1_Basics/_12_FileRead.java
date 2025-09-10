@@ -1,4 +1,3 @@
-
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -36,5 +35,6 @@ public class _12_FileRead {
 			System.out.println("An error occurred while reading the file: " + e.getMessage());
 		}
 		System.out.println("File reading completed.");
+
 	}
 }
